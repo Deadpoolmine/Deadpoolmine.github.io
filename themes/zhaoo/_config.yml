@@ -4,17 +4,16 @@
 
 # Menu
 menu:
-  home: / || 主 页
-  galleries: /galleries/ || 生 活
-  archives: /archives/ || 归档
-  tags: /tags/ || 标签
-  categories: /categories/ || 分类
-  hello: /hello/ || 分类
-  about: /about/ || 关于
+  home: / || Main
+  galleries: /galleries/ || Life
+  archives: /archives/ || Archives
+  tags: /tags/ || Tags
+  categories: /categories/ || Categories
+  about: /about/ || AboutMe
 
 # Color
 color:
-  text: '#33333D'
+  text: '#dddddd'
   text-secondary: '#4e4e4e'
   text-third: '#999999'
   background: '#ffffff'
@@ -64,7 +63,7 @@ preview:
     size: cover # css: background-size
     position: center # css: background-position
   motto:
-    default: Let start at the rainbow
+    default: Let us start at the rainbow
     color: '#ffffff'
     typing: true
     api: 
@@ -76,9 +75,13 @@ preview:
 navbar:
   enable: true
   back_home: true
+  music:
+    enable: true
+    music_name: Cyberpunk
+    music_url: /medias/Cyberpunk.flac
 
 # Copyright
-copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p>
+copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Made By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">Deadpoolmine</a> |  Theme By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p>
 
 # Social
 social:
@@ -103,7 +106,7 @@ search:
 
 # QR Code
 qrcode:
-  enable: true
+  enable: false
   type: url # url | image
   image: https://pic.izhaoo.com/weapp-code.jpg
 
@@ -170,10 +173,10 @@ carrier:
 # Galleries
 galleries:
   enable: true
-  title: 摄影
-  subtitle: Photography
+  title: 我 的 生 活
+  subtitle: A Journey of My Life
   type: waterfall # waterfall | grid
-  columns: 3
+  columns: 4
 
 
 # --------------------------------------------------
@@ -240,7 +243,7 @@ lazyload:
   enable: true
   only_post: false
   loading:
-    gif: /images/theme/loading.gif
+    gif: /images/theme/cyber-loading.gif
     lottie: 
 
 # FancyBox
@@ -283,6 +286,7 @@ vendors:
   fancybox_css: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
   highlight_css: https://cdn.bootcss.com/highlight.js/9.18.1/styles/
   iconfont_css: https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css
+  iconfont_custom_css: https://at.alicdn.com/t/c/font_3791292_rl23fw53ok.css
 
 # Custom
 custom:

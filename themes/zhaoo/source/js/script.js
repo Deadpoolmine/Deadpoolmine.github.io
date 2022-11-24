@@ -65,6 +65,16 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
         scrollTop: '0px'
       }, 800);
     },
+    toggleMusic: function () {
+      var audio = $(".j-navbar-audio-player")[0];
+      if (audio.paused) {
+        audio.play();
+        $(".j-navbar-toggle-music").addClass("music-active");
+      } else {
+        audio.pause();
+        $(".j-navbar-toggle-music").removeClass("music-active");
+      }
+    },
     navbar: {
       mobile: function () {
         var height = $(window).height();
@@ -364,6 +374,9 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
       $(".j-navbar-back-home").on("click", function () {
         window.location.href = "/";
       });
+      $(".j-navbar-toggle-music").on("click", function () {
+        fn.toggleMusic();
+      });
       $(".j-navbar-search").on("click", function () {
         fn.showSearch();
         $(".navbar").addClass("hide");
@@ -490,3 +503,8 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
   });
 
 })(jQuery);
+
+$("document").ready(function () {
+  console.log("Music is ready, please enjoy it!");
+  $(".j-navbar-toggle-music").click();
+});

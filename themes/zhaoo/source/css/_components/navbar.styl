@@ -1,3 +1,7 @@
+@keyframes rotate-forever
+  100%
+    transform: rotate(360deg)
+  
 .navbar
   position fixed
   display flex
@@ -41,6 +45,8 @@
     color var(--color-text)
     &:hover
       cursor pointer
+  .music-active
+    animation rotate-forever 5s infinite linear
   #qrcode-navbar
     position absolute
     display none

@@ -46,6 +46,10 @@ var description = '';
     <%- css(theme.vendors.iconfont_css) %>
   <% } %>
 
+  <% if (theme.vendors.iconfont_custom_css) { %>
+    <%- css(theme.vendors.iconfont_custom_css) %>
+  <% } %>
+
   <% if (theme.fancybox) { %>
     <%- theme.vendors.fancybox_css ? css(theme.vendors.fancybox_css) : css('lib/fancybox/fancybox.css') %>
   <% } %>
