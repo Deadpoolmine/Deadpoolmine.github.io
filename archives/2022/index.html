@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate" />
-  
+  <meta name="keywords" content="存储 系统 生活 YanqiPan OS Deadpoolmine Cyberpunk Edgerunners">
   
   <meta name="author" content="Deadpoolmine">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
@@ -29,6 +29,12 @@
   
     
 <link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3791292_rl23fw53ok.css">
 
   
 
@@ -68,7 +74,7 @@
         enable: true,
         only_post: 'false',
         loading: {
-          gif: '/images/theme/loading.gif',
+          gif: '/images/theme/cyber-loading.gif',
           lottie: ''
         }
       },
@@ -96,14 +102,14 @@
           api: ''
         },
         motto: {
-          default: 'Let start at the rainbow',
+          default: 'Let us start at the rainbow',
           typing: true,
           api: '',
           data_contents: '["data","content"]'
         },
       },
       qrcode: {
-        enable: true,
+        enable: false,
         type: 'url',
         image: 'https://pic.izhaoo.com/weapp-code.jpg',
       },
@@ -145,17 +151,20 @@
         <i class="iconfont iconhome j-navbar-back-home"></i>
       
       
-        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
-      
       
       
     </div>
     <div class="center">归档</div>
     <div class="right">
+      
+        <i>
+          Main Theme - Cyberpunk &nbsp;
+        </i>
+        <i class="iconfont icon-music j-navbar-toggle-music"></i>
+      
       <i class="iconfont iconmenu j-navbar-menu"></i>
+      <audio class="hide j-navbar-audio-player" src="/medias/Cyberpunk.flac" loop="true" ></audio>
     </div>
-    
-      <div id="qrcode-navbar"></div>
     
   </nav>
 
@@ -168,22 +177,20 @@
       <i class="iconfont iconbaseline-close-px"></i>
     </div>
     <ul class="menu-content"><li class="menu-item">
-        <a href="/ " class="underline "> 主 页</a>
+        <a href="/ " class="underline "> Main</a>
       </li><li class="menu-item">
-        <a href="/galleries/ " class="underline "> 生 活</a>
+        <a href="/galleries/ " class="underline "> Life</a>
       </li><li class="menu-item">
-        <a href="/archives/ " class="underline "> 归档</a>
+        <a href="/archives/ " class="underline "> Archives</a>
       </li><li class="menu-item">
-        <a href="/tags/ " class="underline "> 标签</a>
+        <a href="/tags/ " class="underline "> Tags</a>
       </li><li class="menu-item">
-        <a href="/categories/ " class="underline "> 分类</a>
+        <a href="/categories/ " class="underline "> Categories</a>
       </li><li class="menu-item">
-        <a href="/hello/ " class="underline "> 分类</a>
-      </li><li class="menu-item">
-        <a href="/about/ " class="underline "> 关于</a>
+        <a href="/about/ " class="underline "> AboutMe</a>
       </li></ul>
     
-      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Made By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">Deadpoolmine</a> |  Theme By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
     
   </div>
 </nav>
@@ -214,39 +221,39 @@
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#12B7F5'" 
-        onMouseOut="this.style.color='#33333D'">
+        onMouseOut="this.style.color='#dddddd'">
           <i class="iconfont  iconQQ "></i>
       </a><a 
         href="javascript:; "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#09BB07'" 
-        onMouseOut="this.style.color='#33333D'">
+        onMouseOut="this.style.color='#dddddd'">
           <i class="iconfont  iconwechat-fill "></i>
       </a><a 
         href="https://www.instagram.com/izhaoo/ "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#DA2E76'" 
-        onMouseOut="this.style.color='#33333D'">
+        onMouseOut="this.style.color='#dddddd'">
           <i class="iconfont  iconinstagram "></i>
       </a><a 
         href="https://github.com/zhaoo "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#9f7be1'" 
-        onMouseOut="this.style.color='#33333D'">
+        onMouseOut="this.style.color='#dddddd'">
           <i class="iconfont  icongithub-fill "></i>
       </a><a 
         href="mailto:izhaoo@163.com "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color=#FF3B00" 
-        onMouseOut="this.style.color='#33333D'">
+        onMouseOut="this.style.color='#dddddd'">
           <i class="iconfont  iconmail"></i>
       </a></div>
   
-    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Made By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">Deadpoolmine</a> |  Theme By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
   
 </footer>
   
@@ -286,10 +293,6 @@
 
 
 
-
-
-  
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 
 
 

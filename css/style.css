@@ -2,13 +2,13 @@
   --color-background: #fff;
   --color-background-secondary: #f6f8fa;
   --color-background-rgb: 255, 255, 255;
-  --color-text: #33333d;
+  --color-text: #ddd;
   --color-text-secondary: #4e4e4e;
   --color-text-third: #999;
   --color-border: #eee;
   --background-image: url("/images/theme/cyberpunk-edgerunner2.png");
   --loading-image: url("/images/theme/cyber-loading.gif");
-  --lazyload-image: url("/images/theme/loading.gif");
+  --lazyload-image: url("/images/theme/cyber-loading.gif");
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -24,7 +24,7 @@
     --color-border: #2b3038;
     --background-image: url("/images/theme/cyberpunk-edgerunner2.png");
     --loading-image: url("/images/theme/cyber-loading.gif");
-    --lazyload-image: url("/images/theme/loading.gif");
+    --lazyload-image: url("/images/theme/cyber-loading.gif");
   }
 }
 [color-mode='dark'] {
@@ -37,7 +37,7 @@
   --color-border: #2b3038;
   --background-image: url("/images/theme/cyberpunk-edgerunner2.png");
   --loading-image: url("/images/theme/cyber-loading.gif");
-  --lazyload-image: url("/images/theme/loading.gif");
+  --lazyload-image: url("/images/theme/cyber-loading.gif");
 }
 [color-mode='dark'] .tags a {
   color: var(--color-text) !important;
@@ -982,10 +982,10 @@ body input {
 .menu .menu-container .menu-content .menu-item {
   font-size: 2em;
   list-style: none;
-  margin: 5px 10px;
+  margin: 5px 2em;
 }
 .menu .menu-container .menu-content .menu-item a.active {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 .menu .menu-container .menu-close {
   position: absolute;
@@ -1063,6 +1063,9 @@ body input {
 .navbar .iconfont:hover {
   cursor: pointer;
 }
+.navbar .music-active {
+  animation: rotate-forever 5s infinite linear;
+}
 .navbar #qrcode-navbar {
   position: absolute;
   display: none;
@@ -1080,6 +1083,26 @@ body input {
 @media (max-width: 768px) {
   .navbar .center {
     display: none;
+  }
+}
+@-moz-keyframes rotate-forever {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate-forever {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate-forever {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-forever {
+  100% {
+    transform: rotate(360deg);
   }
 }
 .paginator {
@@ -2025,9 +2048,11 @@ body input {
   position: relative;
   padding-top: 100%;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  background: transparent;
 }
 .galleries .wrap .item:hover {
   filter: grayscale(100%);
+  opacity: 0.7;
 }
 .galleries .wrap .item .title-wrap,
 .galleries .wrap .item img {
