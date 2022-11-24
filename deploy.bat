@@ -5,6 +5,7 @@ if "%~1" == "" (
     exit /b 1
 )
 
+DEL /S "%CD%\..\themes_git_tmemp"
 mkdir "%CD%\..\themes_git_tmemp"
 mv "%CD%\themes\zhaoo\.git" "%CD%\..\themes_git_tmemp"
 git "add" "."
