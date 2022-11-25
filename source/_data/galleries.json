@@ -1,27 +1,7 @@
 [{
     "name": "Stars",
-    "cover": "/images/theme/post-image.jpg",
-    "description": "翻开随身携带的记事本，写着许多事都是关于你。",
-    "photos": [
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg"
-    ]
-  }, {
-    "name": "Movies",  
-    "cover": "/images/theme/post-image.jpg", 
-    "description": "君未看花时，花与君同寂；君来看花日，花色一时明。",  
-    "photos": [  
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg"
-    ]
-  }, {
-    "name": "Books",
-    "cover": "/images/theme/post-image.jpg",
-    "description": "翻开随身携带的记事本，写着许多事都是关于你。",
+    "cover": "/images/stars/kiss.jpg",
+    "description": "回 忆 流 淌 成 诗",
     "photos": [
       "/images/theme/post-image.jpg",
       "/images/theme/post-image.jpg",
@@ -30,17 +10,7 @@
     ]
   }, {
     "name": "Travels",
-    "cover": "/images/theme/post-image.jpg",
-    "description": "翻开随身携带的记事本，写着许多事都是关于你。",
-    "photos": [
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg",
-      "/images/theme/post-image.jpg"
-    ]
-  }, {
-    "name": "Marvels",
-    "cover": "/images/theme/post-image.jpg",
+    "cover": "/images/travels/cover.jpg",
     "description": "翻开随身携带的记事本，写着许多事都是关于你。",
     "photos": [
       "/images/theme/post-image.jpg",
@@ -50,7 +20,37 @@
     ]
   }, {
     "name": "Families",
-    "cover": "/images/theme/post-image.jpg",
+    "cover": "/images/families/cover.jpg",
+    "description": "翻开随身携带的记事本，写着许多事都是关于你。",
+    "photos": [
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg"
+    ]
+  }, {
+    "name": "Movies",  
+    "cover": "/images/movies/cover.jpg", 
+    "description": "记 录 一 部 部 我 伴 我 成 长 的 电 影",  
+    "photos": [  
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg"
+    ]
+  }, {
+    "name": "Marvels",
+    "cover": "/images/marvels/cover.jpg",
+    "description": "翻开随身携带的记事本，写着许多事都是关于你。",
+    "photos": [
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg",
+      "/images/theme/post-image.jpg"
+    ]
+  }, {
+    "name": "Misc",
+    "cover": "/images/misc/cover.jpg",
     "description": "翻开随身携带的记事本，写着许多事都是关于你。",
     "photos": [
       "/images/theme/post-image.jpg",

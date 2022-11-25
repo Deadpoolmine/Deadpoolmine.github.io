@@ -176,7 +176,7 @@ galleries:
   title: 我 的 生 活
   subtitle: A Journey of My Life
   type: waterfall # waterfall | grid
-  columns: 4
+  columns: 5
 
 
 # --------------------------------------------------

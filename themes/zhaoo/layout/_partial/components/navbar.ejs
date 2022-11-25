@@ -3,11 +3,11 @@
   if (is_post() || is_page()) {
     title = page.title;
   } else if (is_archive()) {
-    title = '归档';
+    title = 'Archives';
   } else if (is_category()) {
-    title = '分类';
+    title = 'Categories';
   } else if (is_tag()) {
-    title = '标签';
+    title = 'Tags';
   } else if (is_home()) {
     title = ' ';
   }
@@ -31,14 +31,14 @@
     </div>
     <div class="center"><%= title %></div>
     <div class="right">
-      <% if (theme.navbar.music.enable) { %>
+      <% if (theme.navbar.music.enable && is_home()) { %>
         <i>
           Main Theme - <%= theme.navbar.music.music_name %> &nbsp;
         </i>
         <i class="iconfont icon-music j-navbar-toggle-music"></i>
+        <audio class="hide j-navbar-audio-player" src="<%- theme.navbar.music.music_url %>" loop="true" ></audio>
       <% } %>
       <i class="iconfont iconmenu j-navbar-menu"></i>
-      <audio class="hide j-navbar-audio-player" src="<%- theme.navbar.music.music_url %>" loop="true" ></audio>
     </div>
     <% if (theme.qrcode.enable) { %>
       <div id="qrcode-navbar"></div>
