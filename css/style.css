@@ -2030,13 +2030,13 @@ body input {
 @media (max-width: 768px) {
   .galleries {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 2em;
   }
 }
 .galleries .wrap {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
-  grid-gap: 10px;
+  grid-gap: 2em;
   justify-content: center;
 }
 @media (max-width: 768px) {

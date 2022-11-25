@@ -157,13 +157,7 @@
     <div class="center">Movies</div>
     <div class="right">
       
-        <i>
-          Main Theme - Cyberpunk &nbsp;
-        </i>
-        <i class="iconfont icon-music j-navbar-toggle-music"></i>
-      
       <i class="iconfont iconmenu j-navbar-menu"></i>
-      <audio class="hide j-navbar-audio-player" src="/medias/Cyberpunk.flac" loop="true" ></audio>
     </div>
     
   </nav>
@@ -194,87 +188,69 @@
     
   </div>
 </nav>
-  
-
-
-<main id="main">
-  <section class="gallery container">
-    <header class="header">
-  <h1 class="header-title">Movies</h1>
-  <p class="header-subtitle">君未看花时，花与君同寂；君来看花日，花色一时明。</p>
-</header>
-    <div id="wrap" class=waterfallWrap default-type="waterfall" default-col="4">
-      <a data-fancybox="images" style=width:25% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:25% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:25% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:25% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/cyberpunk/5.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Movies</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>November 24, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>0</span>
     </div>
-  </section>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        
+      </section>
+      <section class="extra">
+        
+          <ul class="copyright">
+  
+    <li><strong>本文作者：</strong>Deadpoolmine</li>
+    <li><strong>本文链接：</strong><a href="https://deadpoolmine.github.io/galleries/Movies/index.html" title="https:&#x2F;&#x2F;deadpoolmine.github.io&#x2F;galleries&#x2F;Movies&#x2F;index.html">https:&#x2F;&#x2F;deadpoolmine.github.io&#x2F;galleries&#x2F;Movies&#x2F;index.html</a></li>
+    <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
+  
+</ul>
+        
+        
+          <section class="donate">
+  <div id="qrcode-donate">
+    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+        
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
 </main>
-
-<script>
-  var gap = 10;
-  var items = document.getElementsByClassName('item');
-  var wrap = document.getElementById("wrap");
-
-  window.onload = function () {
-    waterFall();
-  }
-
-  window.onresize = function () {
-    setTimeout(() => {
-      waterFall();
-    }, 1000)
-  }
-
-  function waterFall() {
-    if (!(wrap.getAttribute('default-type') === 'waterfall')) return;
-    var wrapWidth = getClientWidth();
-    var columns;
-    if(wrapWidth < 768 && wrapWidth >= 576) {
-      columns = 2;
-    } else if (wrapWidth < 576) {
-      columns = 1;
-    } else {
-      columns = parseInt(wrap.getAttribute('default-col'));
-    }
-    rerenderImage(columns, wrapWidth);
-  }
-
-  function rerenderImage(col, pageWidth) {
-    var arr = [];
-    var maxHeight = 0;
-    const itemWidth = (100 / col) + '%';
-    for (var i = 0;i < items.length; i++){
-      if (i < col) {
-        items[i].style.top = 0;
-        items[i].style.left = (pageWidth / col  + gap) * i + 'px';
-        items[i].style.width = itemWidth;
-        arr.push(items[i].offsetHeight);
-      } else {
-        var minHeight = arr[0];
-        var index = 0;
-        for (var j = 0; j < arr.length; j++) {
-          if (minHeight > arr[j]) {
-            minHeight = arr[j];
-            index = j;
-          } 
-        }
-        items[i].style.top = arr[index] + gap + 'px';
-        items[i].style.left = items[index].offsetLeft + 'px';
-        items[i].style.width = itemWidth;
-        arr[index] = arr[index] + items[i].offsetHeight + gap;
-      }
-    }
-    for (var m = 0; m < arr.length; m++) {
-      if (maxHeight < arr[m]) {
-        maxHeight = arr[m];
-      } 
-    }
-    wrap.style.height = maxHeight + 'px';
-  }
-
-  function getClientWidth() {
-    return wrap.getBoundingClientRect().width;
-  }
-</script>
   
 
 <footer class="footer">
