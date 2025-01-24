@@ -11,6 +11,13 @@ Wade (Yanqi) Pan is the first-year Ph.D. student at HIT System and Storage Labor
 
 ## Selected Publications
 
+
+- Zhang, Yifeng, **Pan, Yanqi**, et al. "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging", in Proceedings of the 20th ACM European Conference on Computer Systems (EuroSys'20), Rotterdam, March 30 - April 3, 2025. (CCF-A)
+
+- **Pan, Yanqi**, et al. "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS", in Proceedings of the 23rd USENIX Conference on File and Storage Technologies (FAST'25), Santa Clara, CA, USA, February 25-27, 2025. (CCF-A)
+
+- Liu, Dingbang, Zou, Xiangyu, Lu, Tao, Shilane, Philip, Xia, Wen, Huang, Wenxuan, **Pan, Yanqi**, et al. "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage", in Proceedings of the 20th ACM European Conference on Computer Systems (EuroSys'20), Rotterdam, March 30 - April 3, 2025. (CCF-A)
+
 - **Pan, Yanqi**, et al. "Delaying Crash Consistency for Building A High-Performance Persistent Memory File System", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD). Vol.1, No.1, March 2024. 
 
 - Qiu, Jiansheng, **Pan, Yanqi**, et al. "Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems." 2023 USENIX Annual Technical Conference (USENIX ATC 23). 2023.
