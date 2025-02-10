@@ -233,9 +233,9 @@ tencentChao:
 
 # LeanCloud
 leancloud:
-  enable: false
-  appId:
-  appKey:
+  enable: true
+  appId: iUgHtNhFmhpoLGH3tPGQoCot-gzGzoHsz
+  appKey: OGXNknrSODFqMtxh6hJoWeBl
   serverURLs: https://leancloud.cn/
 
 # Lazyload
