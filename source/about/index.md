@@ -13,6 +13,8 @@ Wade (Yanqi) Pan is the first-year Ph.D. student at HIT System and Storage Labor
 
 ### First/Co-First/Second Author
 
+- **Pan, Yanqi**, et al. "Fast and Synchronous Crash Consistency with Metadata Write-Once File System", in Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI'25), Boston, MA, USA, July 7–9, 2025. (CCF-A)
+
 - **Pan, Yanqi**, et al. "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS", in Proceedings of the 23rd USENIX Conference on File and Storage Technologies (FAST'25), Santa Clara, CA, USA, February 25-27, 2025. (CCF-A)
 
 - Zhang, Yifeng, **Pan, Yanqi**, et al. "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging", in Proceedings of the 20th ACM European Conference on Computer Systems (EuroSys'20), Rotterdam, March 30 - April 3, 2025. (CCF-A)
@@ -34,6 +36,12 @@ Wade (Yanqi) Pan is the first-year Ph.D. student at HIT System and Storage Labor
 - Man, Yang, Li, Shiyi, Xia, Wen, Li, Yikai, Yu, Bochun, Long, Yingchi, **Pan, Yanqi**, "Detective-Dee: a Non-intrusive In Situ Anomaly Detection and Fault Localization Framework", in Proceedings of the 42nd International Symposium on Reliable Distributed Systems (SRDS '23), Marrakesh, Morocco, September 25-29, 2023, pages:243-253, 
 
 - Liang, Wenkai, Hu, Hao, Zou, Xiangyu, Xia, Wen and **Pan, Yanqi**, "DRPTM: A Decoupled Read-efficient High-scalable Persistent Transactional Memory", In Proceedings of the 60th ACM/IEEE Design Automation Conference (DAC '23), San Francisco, CA, USA, July 9-13 pages:1-6. (Acceptance rate: 22.7%) (CCF-A)
+
+## Serving
+
+- 2025, Program Committee Member, OSDI'25
+
+- 2025, Program Committee Member, USENIX ATC'25
 
 
 ## Education
