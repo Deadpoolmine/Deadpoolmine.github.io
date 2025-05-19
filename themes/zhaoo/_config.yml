@@ -81,15 +81,15 @@ navbar:
     music_url: /medias/Cyberpunk.flac
 
 # Copyright
-copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Made By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">Deadpoolmine</a> |  Theme By <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p>
+copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Made By <a target="_blank" href="https://github.com/Deadpoolmine">Deadpoolmine</a> 
 
 # Social
 social:
-  qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
-  wechat: javascript:; || iconwechat-fill || '#09BB07'
-  instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
-  github: https://github.com/zhaoo || icongithub-fill || '#9f7be1'
-  email: mailto:izhaoo@163.com || iconmail
+  # qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
+  # wechat: javascript:; || iconwechat-fill || '#09BB07'
+  # instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
+  github: https://github.com/Deadpoolmine || icongithub-fill || '#9f7be1'
+  email: mailto:wadepan.cs@foxmail.com || iconmail
 
 # Override Scrollbar
 scrollbar:
@@ -159,11 +159,11 @@ donate:
 
 # Copyright
 post_copyright:
-  enable: true
+  enable: false
 
 # Carrier（copy article with one click）
 carrier:
-  enable: true
+  enable: false
   type: html # html | markdown | text
 
 # --------------------------------------------------

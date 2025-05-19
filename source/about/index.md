@@ -7,9 +7,11 @@ date: 2023-10-16 20:28
 **Name**: Wade Pan
 **Gender**: Male
 
-Wade (Yanqi) Pan is the first-year Ph.D. student at HIT System and Storage Laboratory (HSSL) led by [Prof. Wen Xia](https://cswxia.github.io/). He received his bachelor's degree from Harbin Institute of Technology, Shenzhen, China in 2022. His research interests include file system, storage system, and operating system. Especially he is interested in the design and implementation of file systems for emerging non-volatile memory (NVM) devices. 
+Wade (Yanqi) Pan is the second-year Ph.D. student at HIT System and Storage Laboratory (HSSL) led by [Prof. Wen Xia](https://cswxia.github.io/). He received his bachelor's degree from Harbin Institute of Technology, Shenzhen, China in 2022. His research interests include file system, storage system, and operating system. Especially he is interested in the design and implementation of file systems for persistent memory (PM) devices. 
 
-## Selected Publications 
+![Wade (Yanqi) Pan](/images/about/Pre.jpg)
+
+## 1. Selected Publications 
 
 ### First/Co-First/Second Author
 
@@ -37,14 +39,14 @@ Wade (Yanqi) Pan is the first-year Ph.D. student at HIT System and Storage Labor
 
 - Liang, Wenkai, Hu, Hao, Zou, Xiangyu, Xia, Wen and **Pan, Yanqi**, "DRPTM: A Decoupled Read-efficient High-scalable Persistent Transactional Memory", In Proceedings of the 60th ACM/IEEE Design Automation Conference (DAC '23), San Francisco, CA, USA, July 9-13 pages:1-6. (Acceptance rate: 22.7%) (CCF-A)
 
-## Serving
+## 2. Serving
 
-- 2025, Program Committee Member, OSDI'25
+- 2025, Program Committee Member, OSDI'25/USENIX ATC'25
 
-- 2025, Program Committee Member, USENIX ATC'25
+- 2025, Program Committee Member, FAST'26
 
 
-## Education
+## 3. Education
 
 Master/Ph.D., School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, China; September 2022 – Present
 
