@@ -6,12 +6,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Travels - Deadpoolmine&#39;s Cyber Space</title>
+  <title>Linux内核启动修复 - Deadpoolmine&#39;s Cyber Space</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate" />
-  <meta name="keywords" content="存储 系统 生活 YanqiPan OS Deadpoolmine Cyberpunk Edgerunners">
-  
+  <meta name="keywords" content="存储 系统 生活 YanqiPan OS Deadpoolmine Cyberpunk Edgerunners, Linux Kernel 启动 修复">
+  <meta name="description" content="1. 问题如下，奇奇怪怪的报错，没有找到root de...">
   <meta name="author" content="Deadpoolmine">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -154,7 +154,7 @@
       
       
     </div>
-    <div class="center">Travels</div>
+    <div class="center">Linux内核启动修复</div>
     <div class="right">
       
       <i class="iconfont iconmenu j-navbar-menu"></i>
@@ -188,87 +188,76 @@
     
   </div>
 </nav>
-  
-
-
-<main id="main">
-  <section class="gallery container">
-    <header class="header">
-  <h1 class="header-title">Travels</h1>
-  <p class="header-subtitle">翻开随身携带的记事本，写着许多事都是关于你。</p>
-</header>
-    <div id="wrap" class=waterfallWrap default-type="waterfall" default-col="5">
-      <a data-fancybox="images" style=width:20% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:20% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:20% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a><a data-fancybox="images" style=width:20% href="/images/theme/post-image.jpg" class="item"><img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="/images/theme/post-image.jpg" /></a>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/cyberpunk/18.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Linux内核启动修复</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>May 19, 2025</span>
+      
+        <span class="post-info-item">
+          <i class="iconfont iconeye"></i><span id="/2025/05/19/linux-kernel-bootup-fix/" class="leancloud-counter" data-flag-title="Linux内核启动修复"></span>
+        </span>
+        <span class="post-info-item">
+          <i class="iconfont iconheart"></i><span id="/2025/05/19/linux-kernel-bootup-fix/" class="leancloud-like" data-flag-title="Linux内核启动修复"></span>
+        </span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>432</span>
     </div>
-  </section>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <h2 id="1-问题"><a href="#1-问题" class="headerlink" title="1. 问题"></a>1. 问题</h2><p>如下，奇奇怪怪的报错，没有找到root device，这个kernel是vmlinuz-6.1.56+</p>
+<p><img    class="lazyload" data-original="/images/blogs/linux-kernel-bootup-fix/linux-kernel-bootup-fix.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">Kernel启动报错</span></p>
+<h2 id="2-解决方案"><a href="#2-解决方案" class="headerlink" title="2. 解决方案"></a>2. 解决方案</h2><p>找一个能跑的kernel，用grub起来</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /boot</span><br><span class="line">sudo dracut --force initrd.img-6.1.56+ 6.1.56+</span><br></pre></td></tr></table></figure>
+
+<p>需要注意两个点：</p>
+<ul>
+<li>上述的通用规则是要启动的kernel是vmlinuz-xxx，则<code>dracut</code>命令就是<code>sudo dracut --force initrd.img-xxx xxx</code></li>
+<li><code>initrd.img</code>并不一定是通用的命名规则，比如，有些发行版是<code>initramfs-xxx</code>，这要通过观察<code>/boot</code>目录下的文件结构来确认</li>
+</ul>
+<p>OK，从现在开始就可以起飞了🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫</p>
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a></a>
+    <a href="/2022/11/25/hello-world/">第一篇HEXO博客<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%97%AE%E9%A2%98"><span class="toc-text">1. 问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">2. 解决方案</span></a></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
 </main>
-
-<script>
-  var gap = 10;
-  var items = document.getElementsByClassName('item');
-  var wrap = document.getElementById("wrap");
-
-  window.onload = function () {
-    waterFall();
-  }
-
-  window.onresize = function () {
-    setTimeout(() => {
-      waterFall();
-    }, 1000)
-  }
-
-  function waterFall() {
-    if (!(wrap.getAttribute('default-type') === 'waterfall')) return;
-    var wrapWidth = getClientWidth();
-    var columns;
-    if(wrapWidth < 768 && wrapWidth >= 576) {
-      columns = 2;
-    } else if (wrapWidth < 576) {
-      columns = 1;
-    } else {
-      columns = parseInt(wrap.getAttribute('default-col'));
-    }
-    rerenderImage(columns, wrapWidth);
-  }
-
-  function rerenderImage(col, pageWidth) {
-    var arr = [];
-    var maxHeight = 0;
-    const itemWidth = (100 / col) + '%';
-    for (var i = 0;i < items.length; i++){
-      if (i < col) {
-        items[i].style.top = 0;
-        items[i].style.left = (pageWidth / col  + gap) * i + 'px';
-        items[i].style.width = itemWidth;
-        arr.push(items[i].offsetHeight);
-      } else {
-        var minHeight = arr[0];
-        var index = 0;
-        for (var j = 0; j < arr.length; j++) {
-          if (minHeight > arr[j]) {
-            minHeight = arr[j];
-            index = j;
-          } 
-        }
-        items[i].style.top = arr[index] + gap + 'px';
-        items[i].style.left = items[index].offsetLeft + 'px';
-        items[i].style.width = itemWidth;
-        arr[index] = arr[index] + items[i].offsetHeight + gap;
-      }
-    }
-    for (var m = 0; m < arr.length; m++) {
-      if (maxHeight < arr[m]) {
-        maxHeight = arr[m];
-      } 
-    }
-    wrap.style.height = maxHeight + 'px';
-  }
-
-  function getClientWidth() {
-    return wrap.getBoundingClientRect().width;
-  }
-</script>
   
 
 <footer class="footer">
@@ -295,6 +284,10 @@
       <div class="fab fab-plus">
     <i class="iconfont iconplus"></i>
   </div>
+  
+    <div class="fab fab-like">
+      <i class="iconfont iconheart"></i>
+    </div>
   
   
   
