@@ -41,12 +41,15 @@ Wade (Yanqi) Pan is the second-year Ph.D. student at HIT System and Storage Labo
 
 ## 2. Serving
 
-- 2025, Program Committee Member, OSDI'25/USENIX ATC'25
+- 2025, Artifact Evaluation Committee Member, FAST'26
 
-- 2025, Program Committee Member, FAST'26
+- 2025, Artifact Evaluation Committee Member, OSDI'25/USENIX ATC'25
 
+## 3. Awards
 
-## 3. Education
+- OSDI'25 Student Grants, USENIX Association, 2025
+
+## 4. Education
 
 Master/Ph.D., School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, China; September 2022 – Present
 
