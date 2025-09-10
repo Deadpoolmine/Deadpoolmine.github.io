@@ -43,6 +43,8 @@ Wade (Yanqi) Pan is the second-year Ph.D. student at HIT System and Storage Labo
 
 ## 2. Serving
 
+- 2025, External Reviewer, Infocom'26
+
 - 2025, Artifact Evaluation Committee Member, FAST'26
 
 - 2025, Artifact Evaluation Committee Member, OSDI'25/USENIX ATC'25
