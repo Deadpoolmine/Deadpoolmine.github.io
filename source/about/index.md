@@ -15,7 +15,7 @@ Wade (Yanqi) Pan is the second-year Ph.D. student at HIT System and Storage Labo
 
 ### First/Co-First/Second Author
 
-- Jiahao Chen, **Pan, Yanqi** (co-first author), et al. "Fast and Parallelized Crash Consistency with Opportunistic Order Elimination", in Proceedings of the 21th ACM European Conference on Computer Systems (EuroSys'26), Edinburgh, April 27 - April 30, 2026. (CCF-A)
+- Chen, Jiahao, **Pan, Yanqi** (co-first author), et al. "Fast and Parallelized Crash Consistency with Opportunistic Order Elimination", in Proceedings of the 21th ACM European Conference on Computer Systems (EuroSys'26), Edinburgh, April 27 - April 30, 2026. (CCF-A)
 
 - **Pan, Yanqi**, et al. "Fast and Synchronous Crash Consistency with Metadata Write-Once File System", in Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI'25), Boston, MA, USA, July 7–9, 2025. (CCF-A)
 
