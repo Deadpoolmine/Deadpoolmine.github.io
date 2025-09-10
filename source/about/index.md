@@ -15,17 +15,19 @@ Wade (Yanqi) Pan is the second-year Ph.D. student at HIT System and Storage Labo
 
 ### First/Co-First/Second Author
 
+- Jiahao Chen, **Pan, Yanqi** (co-first author), et al. "Fast and Parallelized Crash Consistency with Opportunistic Order Elimination", in Proceedings of the 21th ACM European Conference on Computer Systems (EuroSys'26), Edinburgh, April 27 - April 30, 2026. (CCF-A)
+
 - **Pan, Yanqi**, et al. "Fast and Synchronous Crash Consistency with Metadata Write-Once File System", in Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI'25), Boston, MA, USA, July 7–9, 2025. (CCF-A)
 
 - **Pan, Yanqi**, et al. "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS", in Proceedings of the 23rd USENIX Conference on File and Storage Technologies (FAST'25), Santa Clara, CA, USA, February 25-27, 2025. (CCF-A)
 
-- Zhang, Yifeng, **Pan, Yanqi**, et al. "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging", in Proceedings of the 20th ACM European Conference on Computer Systems (EuroSys'20), Rotterdam, March 30 - April 3, 2025. (CCF-A)
+- Zhang, Yifeng, **Pan, Yanqi** (co-first author), et al. "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging", in Proceedings of the 20th ACM European Conference on Computer Systems (EuroSys'25), Rotterdam, March 30 - April 3, 2025. (CCF-A)
 
 - Huang, Hao, **Pan, Yanqi**, et al. "Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers", in Proceedings of the 2025 Architectural Support for Programming Languages and Operating Systems (ASPLOS'2025), Rotterdam, March 30 - April 3, 2025. (CCF-A)
 
 - **Pan, Yanqi**, et al. "Delaying Crash Consistency for Building A High-Performance Persistent Memory File System", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD). Vol.1, No.1, March 2024. 
 
-- Qiu, Jiansheng, **Pan, Yanqi**, et al. "Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems." 2023 USENIX Annual Technical Conference (USENIX ATC 23). 2023.
+- Qiu, Jiansheng, **Pan, Yanqi** (co-first author), et al. "Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems." 2023 USENIX Annual Technical Conference (USENIX ATC 23). 2023.
 
 - **Pan, Yanqi**, et al. "HUNTER: Releasing Persistent Memory Write Performance with A Novel PM-DRAM Collaboration Architecture." 2023 60th ACM/IEEE Design Automation Conference (DAC). IEEE, 2023.
 
